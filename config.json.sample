@@ -1,0 +1,15 @@
+{
+  "token": "<insert bot token>",
+  "command_prefix": "?",
+  "commands": [
+    { "command": "test", "response":  "Test command response"},
+    { "command": "whoami", "response":  "You are {author}"},
+    { "command": "mention", "response":  "Hello {author.mention}"},
+    { "command": "combi", "response":  "You are {author} and hello {author.mention}"}
+  ],
+  "responses": [
+    { "trigger": "test", "response":  "Test triggered"},
+    { "trigger": "random", "response":  "Random triggered"},
+    { "trigger": "Who?", "response":  "You {author}."}
+  ]
+}
