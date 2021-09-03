@@ -1,0 +1,36 @@
+{
+  "command_prefix": "?",
+  "commands": [
+    {
+      "response": "Test command response",
+      "trigger": "test"
+    },
+    {
+      "response": "You are {author}",
+      "trigger": "whoami"
+    },
+    {
+      "response": "Hello {author.mention}",
+      "trigger": "mention"
+    },
+    {
+      "response": "You are {author} and hello {author.mention}",
+      "trigger": "combi"
+    }
+  ],
+  "triggers": [
+    {
+      "response": "Test triggered",
+      "trigger": "test"
+    },
+    {
+      "response": "Random triggered",
+      "trigger": "random"
+    },
+    {
+      "response": "You {author}.",
+      "trigger": "Who?"
+    }
+  ],
+  "token": ""
+}
