@@ -3,8 +3,8 @@ import re
 import discord
 
 lookups = {
-    "{author}": lambda m: m.author,
-    "{author.mention}": lambda m: m.author.mention
+    "{author}": lambda m: str(m.author),
+    "{author.mention}": lambda m: str(m.author.mention)
 }
 
 class SaltBot(discord.Client):
